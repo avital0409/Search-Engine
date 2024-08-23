@@ -1,0 +1,82 @@
+:root {
+    --logo-font: 'Product Sans', sans-serif;
+    --brand-blue: #4285f4;
+    --brand-red: #ea4335;
+    --brand-yellow: #fbbc05;
+    --brand-green: #34a853;
+
+    --brand-font: 'Google sans', Arial, 'sans-serif-medium', 'sans-serif';
+    --transparency-10: 0.1;
+    --transparency-20: 0.2;
+    --shadow-low: 0 4px 8px rgba(0, 0, 0, var(--transparency-10)), 0 -2px 4px rgba(0, 0, 0, var(--transparency-10));
+    --shadow-high: 0 4px 8px rgba(0, 0, 0, var(--transparency-20)), 0 -2px 4px rgba(0, 0, 0, var(--transparency-20));
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+    font-family: var(--logo-font);
+}
+
+.blue {
+    color: var(--brand-blue);
+}
+
+.red {
+    color: var(--brand-red);
+}
+
+.yellow {
+    color: var(--brand-yellow);
+}
+
+.green {
+    color: var(--brand-green);
+}
+
+.rotate {
+    transform: rotate(-10deg);
+}
+
+.navbar img, .top-ribbon img {
+    width: 40px;
+}
+
+#apps:hover {
+    background-color: rgba(60, 64, 67, .08);
+}
+
+.search-container {
+    margin-inline: auto;
+    position: relative;
+}
+
+.search-options {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 1rem;
+}
+
+.pointer-cursor {
+    cursor: pointer;
+}
+
+.search-input {
+    width: 100%;
+    border: 1px solid #dfe1e5;
+}
+
+.mt-10 {
+    margin-top: 10rem;
+}
+
+.text-s {
+    font-size: small;
+}
+
+.text-m {
+    font-size: medium;
+}

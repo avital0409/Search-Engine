@@ -1,0 +1,124 @@
+:root {
+    --result-img-size: 5.75rem;
+    --result-logo-size: 1.75rem;
+}
+
+.navbar {
+    font-family: var(--brand-font);
+    font-size: 0.875rem;
+}
+
+.nav-item {
+    padding-inline: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
+.nav-item.selected {
+    border-bottom: 0.2rem solid black;
+    padding-top: 0.2rem !important;
+}
+
+.chevron-icon {
+    font-size: 0.7rem !important;
+}
+
+.more-icon {
+    font-size: 1.1rem !important;
+    margin-top: 0.2rem;
+}
+
+.close-icon {
+    font-size: 1.6rem !important;
+}
+
+.search-icon {
+    font-size: 1.3rem !important;
+    text-decoration: none !important;
+}
+
+.site-name {
+    font-size: 0.95rem;
+}
+
+.results-list a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.results-list a:hover{
+    text-decoration: underline;
+}
+
+.img-result {
+    height: var(--result-img-size);
+    width: var(--result-img-size);
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.result-logo {
+    height: var(--result-logo-size);
+    width: var(--result-logo-size);
+}
+
+.search-results-container {
+    margin-inline-start: 12rem;
+    max-width: 690px;
+}
+
+@media (max-width: 1000px) {
+    .identation {
+        margin-inline-start: 5rem;
+    }
+}
+
+.logo-top {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.search-input {
+    height: 2.75rem;
+    box-shadow: var(--shadow-low);
+}
+
+.search-input:hover {
+    box-shadow: var(--shadow-high);
+}
+
+.suggestions span{
+    font-size: 1.375rem;
+    font-family: var(--brand-font);
+}
+
+.flex-item {
+    flex: 0 0 49%; 
+}
+
+.flex-item:hover {
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    text-decoration: underline;
+}
+
+.logo .letter {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.pagination {
+    cursor: pointer;
+}
+
+.pagination a {
+    font-size: 0.875rem;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    text-decoration: underline;
+}
